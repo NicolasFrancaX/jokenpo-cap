@@ -37,6 +37,10 @@ void HTML(char strings[3][10], int matriz[3][3], int player, int cpu) {
     printf("<img src=\"../images/%s_cpu.png\">", strings[cpu]);
     printf("</div>");
     printf("</div>");
+    printf("<br />");
+    printf("<div id=\"reiniciar\">");
+    printf("<p><a href='http://cap.dc.ufscar.br/~727350/jokenpo.html'>Jogar novamente</a></p>");
+    printf("</div>");
     printf("</body>");
     printf("</html>");
 }
