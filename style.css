@@ -1,0 +1,35 @@
+#imagens {
+  text-align: center;
+}
+
+#titulo h1 {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 100px;
+}
+
+h4 {
+  text-align: center;
+}
+
+#jogada {
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  font-size: 23px
+}
+
+#escolha {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 35px;  
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 90px;
+}
+
+body {
+    background-color: white;
+}
