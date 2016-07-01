@@ -16,12 +16,19 @@ h4 {
   text-align: center;
   font-family: 'Anton', sans-serif;
   font-size: 23px
+  line-height: 3;
 }
 
 #escolha {
   text-align: center;
   font-family: 'Lobster', cursive;
   font-size: 35px;  
+}
+
+#reiniciar {
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  font-size: 30px
 }
 
 h1 {
@@ -32,4 +39,9 @@ h1 {
 
 body {
     background-color: white;
+}
+
+button {
+  border: 0;
+  background: transparent;
 }
