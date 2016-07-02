@@ -3,13 +3,13 @@
 void condicaoHTML(int matriz[3][3], int player, int cpu) {
     switch(matriz[player][cpu]) {
         case 0:
-            printf("<h1>Você perdeu!</h1>");
+            printf("Você perdeu!");
             break;
         case 1:
-            printf("<h1>Você empatou!</h1>");
+            printf("Você empatou!");
             break;
         case 2:
-            printf("<h1>Você ganhou!</h1>");
+            printf("Você ganhou!");
             break;
     }
 }
@@ -26,9 +26,9 @@ void HTML(char strings[3][10], int matriz[3][3], int player, int cpu) {
     printf("<link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>");
     printf("</head>");
     printf("<body>");
-
+    printf("<h1>");
     condicaoHTML(matriz, player, cpu);
-
+    printf("</h1>");
     printf("<div id=\"escolha\">");
     printf("<p> Você:       &nbsp; &nbsp; &nbsp;       PC:</p>");
     printf("</div>");
