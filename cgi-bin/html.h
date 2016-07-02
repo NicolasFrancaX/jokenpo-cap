@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// Funcao que, dependendo do valor pego na matriz "jogo", vai mostrar se ganhou, perdeu ou empatou.
 void condicaoHTML(int matriz[3][3], int player, int cpu) {
     switch(matriz[player][cpu]) {
         case 0:
@@ -14,6 +15,7 @@ void condicaoHTML(int matriz[3][3], int player, int cpu) {
     }
 }
 
+// Funcao que faz o processamento do HTML com CGI/C.
 void HTML(char strings[3][10], int matriz[3][3], int player, int cpu) {
     printf("%s%c%c\n", "Content-Type:text/html;charset=UTF-8", 13, 10);
     printf("<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">");
